@@ -1,0 +1,55 @@
+body{
+    background: antiquewhite;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    width: 300px;
+    background: azure;
+    padding: 20px; 
+    border: 4px solid #fff;
+    border-radius: 12px;
+    margin:16px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stop{
+    cursor: pointer;
+    width: 90px;
+    height: 32px;
+    background: red;
+    box-shadow: 0 4px 0 brown;
+    border-radius: 16px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+    user-select: none;
+}
+#spin{
+    cursor: pointer;
+    width: 280px;
+    height: 36px;
+    background: greenyellow;
+    box-shadow: 0 4px 0 green;
+    border-radius: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    user-select: none;
+    margin: 0 auto;
+}
+.panel img{
+    width: 90px;
+    height:110px;
+    margin-bottom: 4px;
+}
+.unmatched{
+    opacity: 0.5;
+}
+.inactive{
+    opacity: 0.5;
+}
